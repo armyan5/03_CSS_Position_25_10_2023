@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght@0,100;0,400;0,500;1,100;1,400;1,500&display=swap');
+
+* {
+    /*vneshnie otstupi*/
+    margin: 0;
+    /*vnutrennie otstupi*/
+    padding: 0;
+}
+
+body {
+    background-color: rgb(196, 184, 188);           /*cvet fona*/
+    font-family: 'Raleway', sans-serif;       /*shrift*/
+    font-weight: 500;                         /*tolshina shrifta*/
+    font-style: italic;                       /*stilistika shrifta (kursiv) */
+}
+
+.header {
+    height: 560px;
+    background-image: url('./Images/coffee-bgnd.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+h1 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-style: normal;
+    font-size: 100px;
+    color: rgba(3, 150, 100, .75); /* 0.75 */
+    padding-top: 180px;
+    text-align: center;
+}
+
+.main {
+    position: relative;
+}
+
+.left,.right,.central {
+  position: absolute;
+    width: 32%;
+    top: 15px;
+}
+
+.left {
+    left: 15px;
+
+}
+
+.right {
+    right: 15px;
+
+}
+
+.central{
+ left: 517px;
+}
+
+
+.left > div, .right > div,.central > div {
+    margin: 100px 0;
+   border-bottom: 1px solid #e4bb97;
+   padding-bottom: 60px;
+   height: 155px;
+   overflow: auto;
+
+}
+
+.main div > p {
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 30px;
+    padding: 0 5px;
+    color: #454;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* 
+.nav{
+    position: fixed;
+} */
